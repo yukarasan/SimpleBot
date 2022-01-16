@@ -49,6 +49,9 @@ public class Main {
             restOfName = name.substring(1);
         }
 
+        // Detecting if the rest of the name contains any upper case letters, and converting them to lowercase
+        restOfName = restOfName.toLowerCase();
+
         System.out.println("What a great name you have, " + firstLetter + restOfName + "!" + "\n");
     }
 
